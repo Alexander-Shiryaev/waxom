@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/raleway-regular.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-regular.woff) format('woff'),
+         url(../fonts/Raleway/raleway-regular.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/raleway-medium.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-medium.woff) format('woff'),
+         url(../fonts/Raleway/raleway-medium.ttf) format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/raleway-semibold.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-semibold.woff) format('woff'),
+         url(../fonts/Raleway/raleway-semibold.ttf) format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/raleway-bold.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-bold.woff) format('woff'),
+         url(../fonts/Raleway/raleway-bold.ttf) format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/raleway-extrabold.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-extrabold.woff) format('woff'),
+         url(../fonts/Raleway/raleway-extrabold.ttf) format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat/montserrat-extralight.woff2) format('woff2'),
+         url(../fonts/Montserrat/montserrat-extralight.woff) format('woff'),
+         url(../fonts/Montserrat/Montserrat-extralight.ttf) format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat/montserrat-light.woff2) format('woff2'),
+         url(../fonts/Montserrat/montserrat-light.woff) format('woff'),
+         url(../fonts/Montserrat/Montserrat-light.ttf) format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat/montserrat-regular.woff2) format('woff2'),
+         url(../fonts/Montserrat/montserrat-regular.woff) format('woff'),
+         url(../fonts/Montserrat/montserrat-regular.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto/roboto-regular.woff2) format('woff2'),
+         url(../fonts/Roboto/roboto-regular.woff) format('woff'),
+         url(../fonts/Roboto/roboto-regular.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'raleway', 'montserrat', sans-serif;
+}
+
+.header {
+    height: 983px;
+    background-image: url(../img/header_bg_photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 0 0;
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    width: 1145px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 219px 0 0;
+}
+
+.logo-svg {
+    fill: currentColor;
+}
+
+.logo-txt {
+    font-family: 'raleway';
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+
+.logo:hover{
+    color: #998675;
+}
+
+.logo:active {
+    color: #fff;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'montserrat';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 0 33px 0 0;
+    padding: 0;
+}
+
+.nav-bar-list-item {
+    margin: 0 28px 0 0;
+}
+
+.header-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: #c7b299;
+}
+
+.header-link:active {
+    color: #fff;
+}
+
+.bascket {
+    color: #fff;
+    outline: none;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin: 0 28px 0 0;
+}
+
+.bascket:hover {
+    color: #c7b299;
+}
+
+.bascket:active {
+    color: #fff;
+}
+
+.bascket-svg {
+    fill: currentColor;
+}
+
+.search {
+    width: 24px;
+    height: 24px;
+    outline: none;
+    background-image: url(../img/icon_search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
+.search:focus {
+    width: 200px;
+    transition: width 1s ease-out;
+    background-position: right;
+    border-bottom: 1px solid #c7b299;
+}
+
+.carusel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 277px auto 0;
+    width: 1615px;
+    justify-content: space-between;
+}
+
+.offer {
+    text-align: center;
+    width: 589px;
+    position: relative;
+}
+
+.offer-left-btn {
+    width: 40px;
+    height: 73px;
+    background-image: url(../img/left_arrow.svg);
+    background-repeat: no-repeat;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    margin: 100px 0 0 5px;
+}
+
+.offer-left-btn:hover {
+    background-image: url(../img/left_arrow_hover.svg);
+}
+
+.offer-left-btn:active {
+    background-image: url(../img/left_arrow.svg);
+}
+
+.offer-right-btn {
+    width: 40px;
+    height: 73px;
+    background-image: url(../img/right_arrow.svg);
+    background-repeat: no-repeat;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    margin: 100px -10px 0 0;
+}
+
+.offer-right-btn:hover {
+    background-image: url(../img/right_arrow_hover.svg);
+}
+
+.offer-right-btn:active {
+    background-image: url(../img/right_arrow.svg);
+}
+
+.offer-subtitle {
+    display: block;
+    font-family: 'raleway';
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 3px 0;
+}
+
+.offer-title {
+    display: block;
+    font-family: 'raleway';
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 11px 0;
+}
+
+.offer-txt {
+    display: block;
+    font-family: 'montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.offer-btn {
+    display: block;
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3px;
+    padding: 0;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 874px;
+    bottom: 278px;
+    font-family: 'raleway';
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.offer-btn:hover {
+    background-color: #fff;
+    color: #998675;
+}
+.offer-btn:active {
+    background-color: #998675;
+    color: #fff;
+}
+
+.carusel-pagination {
+    width: 100%;
+    margin: 424px 0 0 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.carusel-pagination-btn {
+    display: block;
+    width: 11px;
+    height: 11px;
+    opacity: 0.5;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    padding: 0;
+    outline: none;
+}
+
+.carusel-pagination-btn:hover {
+    background-color: transparent;
+    border: 2px solid #d3c1ad;
+    transform: scale(1.2);
+}
+
+.carusel-pagination-btn:active {
+    opacity: 0.5;
+    background-color: #fff;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 0 0;
+}
+
+.features-box {
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features-icon {
+    display: block;
+    margin: 0 auto 29px;
+    width: 100%;
+    fill: #555555;
+}
+
+.features-title {
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    margin: 0 auto 19px;
+}
+
+.features-txt {
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 0 auto 30px;
+}
+
+.features-box:after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+
+.features-box:hover .features-icon {
+    fill: #c7b299;
+}
+
+.features-box:hover .features-title {
+    color: #c7b299;
+}
+
+.features-box:hover:after {
+    background-color: #c7b299;
+}
