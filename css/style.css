@@ -569,7 +569,7 @@ body {
 
 .projects-btn {
     width: 120px;
-    height: 32px;
+    min-height: 32px;
     border: 1px solid #ebebeb;
     border-radius: 3px;
     box-sizing: border-box;
@@ -581,6 +581,7 @@ body {
     color: #8c8c8c;
     background-color: transparent;
     margin: 0 10px 0 0;
+    padding: 0;
 }
 
 .projects-btn:hover {
@@ -1337,7 +1338,7 @@ body {
     filter: brightness(220%);
 }
 
-@media (max-width: 605px) {
+@media (max-width: 576px) {
     body {
         width: 100%;
     }
@@ -1481,7 +1482,7 @@ body {
     }
 
     .projects-btn {
-        width: 110px;
+        width: 100px;
     }
 
     .projects-cards {
@@ -1579,5 +1580,27 @@ body {
 
     .footer-bottom-txt {
         text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-buttons {
+        width: 470px;
+    }
+
+    .projects-item {
+        margin: 0 0 30px 0;
+    }
+
+    .devices-list {
+        padding: 0 0 0 75px;
+    }
+
+    .posts-txt {
+        width: 440px;
+    }
+
+    .footer-img {
+        margin: 0 20px 50px 20px;
     }
 }
