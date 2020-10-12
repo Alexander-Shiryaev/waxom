@@ -1,1 +1,1 @@
-waxom.github.io
+shiryaev-waxom.github.io
