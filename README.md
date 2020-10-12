@@ -1,1 +1,1 @@
-waxom
+waxom.github.io
