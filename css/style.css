@@ -83,7 +83,7 @@
 body {
     margin: 0 auto;
     font-family: 'raleway', 'montserrat', sans-serif;
-    width: 1920px;
+    /* width: 1920px; */
     /* overflow-x: hidden; */
 }
 
@@ -1491,6 +1491,10 @@ time {
     .projects-cards {
         width: 100%;
         justify-content: center;
+    }
+
+    .projects-item {
+        margin: 0 0px 30px 0;
     }
 
     .video-section {
