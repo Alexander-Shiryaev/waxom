@@ -607,8 +607,9 @@ body {
 }
 
 .projects-cards {
-    max-width: 1170px;
+    max-width: 1200px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 40px auto 0;
 }
@@ -1388,7 +1389,7 @@ time {
 
     .devices-desc {
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .devices-desc-title {
